@@ -521,9 +521,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1199129359805433, guid: fdc12eaefea4001449e76ba2385333d0, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1514499349}
+    - target: {fileID: 1199129359805433, guid: fdc12eaefea4001449e76ba2385333d0, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SwitchAudioOn_2
+      objectReference: {fileID: 0}
     - target: {fileID: 86852825012638610, guid: fdc12eaefea4001449e76ba2385333d0, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 714426052061279927, guid: fdc12eaefea4001449e76ba2385333d0, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1514499349}
+    - target: {fileID: 714426052061279927, guid: fdc12eaefea4001449e76ba2385333d0, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SwitchAudioOn_2
       objectReference: {fileID: 0}
     - target: {fileID: 1207675756627890176, guid: fdc12eaefea4001449e76ba2385333d0, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -581,6 +597,22 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 46c51b1d7ee0aa046bd03620b02e623c, type: 3}
+    - target: {fileID: 6197929737063207623, guid: fdc12eaefea4001449e76ba2385333d0, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1514499349}
+    - target: {fileID: 6197929737063207623, guid: fdc12eaefea4001449e76ba2385333d0, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SwitchAudioOn
+      objectReference: {fileID: 0}
+    - target: {fileID: 6324581419780324259, guid: fdc12eaefea4001449e76ba2385333d0, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1514499349}
+    - target: {fileID: 6324581419780324259, guid: fdc12eaefea4001449e76ba2385333d0, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SwitchAudioOn
+      objectReference: {fileID: 0}
     - target: {fileID: 6868886855795096575, guid: fdc12eaefea4001449e76ba2385333d0, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -661,6 +693,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7082907540302087264, guid: fdc12eaefea4001449e76ba2385333d0, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1514499349}
+    - target: {fileID: 7082907540302087264, guid: fdc12eaefea4001449e76ba2385333d0, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SwitchAudioOn
+      objectReference: {fileID: 0}
     - target: {fileID: 7104946389859145824, guid: fdc12eaefea4001449e76ba2385333d0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -688,6 +728,14 @@ PrefabInstance:
     - target: {fileID: 8860238241740524692, guid: fdc12eaefea4001449e76ba2385333d0, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8872842481223740945, guid: fdc12eaefea4001449e76ba2385333d0, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1514499349}
+    - target: {fileID: 8872842481223740945, guid: fdc12eaefea4001449e76ba2385333d0, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SwitchAudioOn
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1087,6 +1135,17 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 09b82dddda1fc71418ee309494918076, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1514499349 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3394190312825789675, guid: e74c984d03716154eac3b9a86ff519ac, type: 3}
+  m_PrefabInstance: {fileID: 1960461446}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33dd7da54cab56c45a36c0b30dab1a69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1578694597
