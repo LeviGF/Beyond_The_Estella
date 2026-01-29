@@ -9,19 +9,30 @@ public class Contador : MonoBehaviour
     public Text contador;
     //Hace referencia a los minutos
     public float minutos;
+    
     //Hace referencia a los sugundos
     public float segundos;
 
     //Hce referencia a que se acabo el tiempo
     public bool timeEnd;
 
+    //Hace referencia a cuando se acaba el tiempo pero esta vez especifico para la barra
+    private float timeLeft;
+
+    //Tiempo maximo
+    public float maxTime = 5f;
+
     //Referencia al alien que aparecera cuando termine el tiempo
     public GameObject AlienSpawn;
+
+    //Barra de progresion
+     public Image BarImage;
 
     // Start is called before the first frame update
     void Start()
     {
         ActualizarContador();
+        timeLeft = maxTime;
     }
 
     // Update is called once per frame
@@ -48,6 +59,7 @@ public class Contador : MonoBehaviour
         }
 
         ActualizarContador();
+        BarImg();
 
     }
 
@@ -69,4 +81,14 @@ public class Contador : MonoBehaviour
         AlienSpawn.SetActive(true);
     }
 
+    private void BarImg()
+    {
+        if(timeLeft > 0)
+        {
+            timeLeft -= Time.deltaTime;
+            //Barra de contador
+            BarImage.fillAmount = timeLeft / maxTime;
+        }
+      
+    }
 }

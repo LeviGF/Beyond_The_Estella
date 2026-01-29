@@ -1816,7 +1816,7 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 6868886855795096575, guid: fdc12eaefea4001449e76ba2385333d0, type: 3}
-      insertIndex: -1
+      insertIndex: 0
       addedObject: {fileID: 1015647498}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdc12eaefea4001449e76ba2385333d0, type: 3}
@@ -1999,6 +1999,14 @@ PrefabInstance:
       propertyPath: SwitchAudio
       value: 
       objectReference: {fileID: 8300000, guid: 09643d52b5e100f45b654b3c40499a75, type: 3}
+    - target: {fileID: 5151822161714673521, guid: e74c984d03716154eac3b9a86ff519ac, type: 3}
+      propertyPath: maxTime
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 5151822161714673521, guid: e74c984d03716154eac3b9a86ff519ac, type: 3}
+      propertyPath: BarImage
+      value: 
+      objectReference: {fileID: 1204437209}
     - target: {fileID: 5151822161714673521, guid: e74c984d03716154eac3b9a86ff519ac, type: 3}
       propertyPath: contador
       value: 
