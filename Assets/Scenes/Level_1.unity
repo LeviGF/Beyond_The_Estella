@@ -550,6 +550,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1204644934 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2420202945438789128, guid: fdc12eaefea4001449e76ba2385333d0, type: 3}
+  m_PrefabInstance: {fileID: 4236752511547550316}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1370904813 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2197528220937365986, guid: fdc12eaefea4001449e76ba2385333d0, type: 3}
@@ -1394,6 +1405,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8856535560649468452, guid: fdc12eaefea4001449e76ba2385333d0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 258.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856535560649468452, guid: fdc12eaefea4001449e76ba2385333d0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 289.2
+      objectReference: {fileID: 0}
     - target: {fileID: 8872842481223740945, guid: fdc12eaefea4001449e76ba2385333d0, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1585,6 +1604,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5151822161714673521, guid: e74c984d03716154eac3b9a86ff519ac, type: 3}
+      propertyPath: maxTime
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 5151822161714673521, guid: e74c984d03716154eac3b9a86ff519ac, type: 3}
+      propertyPath: BarImage
+      value: 
+      objectReference: {fileID: 1204644934}
     - target: {fileID: 5151822161714673521, guid: e74c984d03716154eac3b9a86ff519ac, type: 3}
       propertyPath: contador
       value: 

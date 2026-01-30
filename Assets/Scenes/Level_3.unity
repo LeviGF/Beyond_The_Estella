@@ -496,6 +496,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 811a4dc26aad11c4184f6df2010763a3, type: 3}
+--- !u!114 &738387491 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2420202945438789128, guid: fdc12eaefea4001449e76ba2385333d0, type: 3}
+  m_PrefabInstance: {fileID: 1135027766}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &829328842
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -666,6 +677,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5151822161714673521, guid: e74c984d03716154eac3b9a86ff519ac, type: 3}
+      propertyPath: maxTime
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 5151822161714673521, guid: e74c984d03716154eac3b9a86ff519ac, type: 3}
+      propertyPath: BarImage
+      value: 
+      objectReference: {fileID: 738387491}
     - target: {fileID: 5151822161714673521, guid: e74c984d03716154eac3b9a86ff519ac, type: 3}
       propertyPath: contador
       value: 
@@ -905,6 +924,10 @@ PrefabInstance:
     - target: {fileID: 8774843007146620201, guid: fdc12eaefea4001449e76ba2385333d0, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8856535560649468452, guid: fdc12eaefea4001449e76ba2385333d0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 267
       objectReference: {fileID: 0}
     - target: {fileID: 8872842481223740945, guid: fdc12eaefea4001449e76ba2385333d0, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
