@@ -54,5 +54,11 @@ public class Bala : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        //if (other.CompareTag("Obstaculo_R"))
+        {
+            //other.GetComponent<Obstaculo_Life>().TomarDaño(daño);
+            //Destroy(gameObject);
+        }
     }
 }

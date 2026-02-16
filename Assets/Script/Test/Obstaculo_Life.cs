@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class Obstaculo_Life : MonoBehaviour
 {
-    [SerializeField] private float vida_Max;
-    private float vida;
+    public float vida;
     private Rigidbody2D rb;
     void Start()
     {
-        vida = vida_Max;
         rb = GetComponent<Rigidbody2D>();
+        rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
     }
 
     // Update is called once per frame

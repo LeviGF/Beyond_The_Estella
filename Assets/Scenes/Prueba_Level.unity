@@ -762,7 +762,7 @@ GameObject:
   - component: {fileID: 1388632602}
   - component: {fileID: 1388632607}
   m_Layer: 0
-  m_Name: Obsataculo_R
+  m_Name: Obstaculo_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -853,7 +853,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.06365013, y: -0.038897038}
+  m_Offset: {x: 0.04737377, y: -0.044247627}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -864,7 +864,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5898056, y: 0.6393118}
+  m_Size: {x: 0.6908932, y: 0.5781288}
   m_EdgeRadius: 0
 --- !u!4 &1388632606
 Transform:
@@ -894,7 +894,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 462e2d5dcb8dffc4aa317777027e2532, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida_Max: 1
+  vida: 1
 --- !u!1 &1390523583 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3196451737496363928, guid: 027930d6c41e8024394a22103937b78f, type: 3}
