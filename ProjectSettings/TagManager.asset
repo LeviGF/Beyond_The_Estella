@@ -8,6 +8,8 @@ TagManager:
   - Bala
   - Covertura
   - Bala_Pesada
+  - Obstaculo
+  - Bala_Player
   layers:
   - Default
   - TransparentFX

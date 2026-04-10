@@ -12,6 +12,14 @@ public class Obstaculo_Life : MonoBehaviour
         rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Bala_Player"))
+        {
+            Destroy(gameObject);
+        }
+    }
+
     // Update is called once per frame
     public void TomarDaño(float CantidadDaño)
     {

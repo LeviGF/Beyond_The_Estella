@@ -763,7 +763,7 @@ GameObject:
   - component: {fileID: 1388632607}
   m_Layer: 0
   m_Name: Obstaculo_R
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1626,6 +1626,10 @@ PrefabInstance:
     - target: {fileID: 2358341807924658266, guid: 082000ec32f242c4e948e7c4968f7d54, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2358341807924658266, guid: 082000ec32f242c4e948e7c4968f7d54, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4381761875412693453, guid: 082000ec32f242c4e948e7c4968f7d54, type: 3}
       propertyPath: m_LocalPosition.x

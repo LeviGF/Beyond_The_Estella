@@ -35,6 +35,8 @@ public class Bala : MonoBehaviour
         {
             //other.GetComponent<Enemy_Life>().TomarDaño(daño);
             other.GetComponent<Enemy_Life>().TomarDaño(daño);
+            other.GetComponent<Obstaculo_Life>().TomarDaño(daño);
+
 
             Destroy(gameObject);
         }
