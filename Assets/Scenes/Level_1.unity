@@ -156,11 +156,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8108e733fbeb6d740bf232644875bf17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &230538409 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9159779167423978076, guid: d5ecf8276e368b5499c41d38aafa95aa, type: 3}
-  m_PrefabInstance: {fileID: 3239869549901477077}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &253364923
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -456,11 +451,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &603383387 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 609126674592751163, guid: 9b620a409c8115a45b49cefa4f14c72a, type: 3}
-  m_PrefabInstance: {fileID: 7354924441335294418}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &715780871 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5368206254395341885, guid: 2e8acc02d3ad4644ebf7152d6bb8f390, type: 3}
@@ -583,16 +573,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1390523583 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3196451737496363928, guid: 027930d6c41e8024394a22103937b78f, type: 3}
-  m_PrefabInstance: {fileID: 7296681243129167945}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1529043617 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5151110955375350866, guid: ca2dd5b3f4b7bb9449a7c1efc12a4eee, type: 3}
-  m_PrefabInstance: {fileID: 4481336158150932021}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1635526498 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 362129329401743525, guid: fdc12eaefea4001449e76ba2385333d0, type: 3}
@@ -716,14 +696,14 @@ PrefabInstance:
     - target: {fileID: 4315859387748386765, guid: 7440ac0ef58a1664d8a8c0258645a52d, type: 3}
       propertyPath: obstaculo
       value: 
-      objectReference: {fileID: 1390523583}
+      objectReference: {fileID: 3001976121193735982, guid: 92c54093fe4f22a4a824aadbdef09156, type: 3}
     - target: {fileID: 6056295020552210751, guid: 7440ac0ef58a1664d8a8c0258645a52d, type: 3}
       propertyPath: m_Name
       value: Spawn Point (2)
       objectReference: {fileID: 0}
     - target: {fileID: 6056295020552210751, guid: 7440ac0ef58a1664d8a8c0258645a52d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -856,6 +836,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spawn Point (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2358341807924658266, guid: 082000ec32f242c4e948e7c4968f7d54, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4381761875412693453, guid: 082000ec32f242c4e948e7c4968f7d54, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.72
@@ -899,7 +883,7 @@ PrefabInstance:
     - target: {fileID: 4505713360305277559, guid: 082000ec32f242c4e948e7c4968f7d54, type: 3}
       propertyPath: obstaculo
       value: 
-      objectReference: {fileID: 603383387}
+      objectReference: {fileID: 504031247170782337, guid: 77342d302ae4cf7469c413d9a1fcf143, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -977,14 +961,14 @@ PrefabInstance:
     - target: {fileID: 3496059740027147284, guid: 523949b46cf77f14a990f7de7d0eb668, type: 3}
       propertyPath: obstaculo
       value: 
-      objectReference: {fileID: 1529043617}
+      objectReference: {fileID: 3794874084948555482, guid: 4b044271ff368654c8fee9f7c667c362, type: 3}
     - target: {fileID: 5640502833966811163, guid: 523949b46cf77f14a990f7de7d0eb668, type: 3}
       propertyPath: m_Name
       value: Spawn Point (3)
       objectReference: {fileID: 0}
     - target: {fileID: 5640502833966811163, guid: 523949b46cf77f14a990f7de7d0eb668, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6585235275357488352, guid: 523949b46cf77f14a990f7de7d0eb668, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1140,10 +1124,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spawn Point
       objectReference: {fileID: 0}
+    - target: {fileID: 2543719061000431087, guid: 9e8f15cb75de41845924de4c6136cac3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5141159063631575220, guid: 9e8f15cb75de41845924de4c6136cac3, type: 3}
       propertyPath: obstaculo
       value: 
-      objectReference: {fileID: 230538409}
+      objectReference: {fileID: 1289539070999997699, guid: 7bd33dcfba9848b4f8d5bd073bf30678, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
