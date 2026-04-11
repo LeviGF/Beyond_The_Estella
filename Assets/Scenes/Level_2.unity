@@ -626,7 +626,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5151822161714673521, guid: e74c984d03716154eac3b9a86ff519ac, type: 3}
       propertyPath: maxTime
-      value: 60
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5151822161714673521, guid: e74c984d03716154eac3b9a86ff519ac, type: 3}
+      propertyPath: minutos
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5151822161714673521, guid: e74c984d03716154eac3b9a86ff519ac, type: 3}
       propertyPath: BarImage
@@ -636,6 +640,10 @@ PrefabInstance:
       propertyPath: contador
       value: 
       objectReference: {fileID: 353152682}
+    - target: {fileID: 5151822161714673521, guid: e74c984d03716154eac3b9a86ff519ac, type: 3}
+      propertyPath: segundos
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 5151822161714673521, guid: e74c984d03716154eac3b9a86ff519ac, type: 3}
       propertyPath: AlienSpawn
       value: 
